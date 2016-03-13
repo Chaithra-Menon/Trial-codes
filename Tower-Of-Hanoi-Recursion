@@ -1,0 +1,20 @@
+//Tower of Hanoi code using recursion.
+#include<iostream.h>
+TowerOfHanoi();
+int main()
+{
+int noOfPoles,noOfRings;
+int noOfTurns;
+cout<<"Enter number of poles:";
+cin>>noOfPoles;
+cout<<"Enter number of rings:";
+cin>>noOfRings;
+noOfTurns=TowerOfHanoi(noOfPoles,noOfRings);
+cout<<"The number of turns need to solve the Tower of Hanoi for "<<noofRings<<" on "<<noOfPoles<<" is "<<noOfTurns;
+return 0;
+}
+
+int TowerOfHanoi(noOfPoles,noOfRings)
+{
+
+}
